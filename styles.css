@@ -55,4 +55,13 @@ li a:hover {
   color:white;
   font-size: 20px;
 }
+#nextButton{
+  background-color: #7CB333;
+  color: white;
+  border-radius: 8px;
+  border-color: #7CB333;
+  height: 70px;
+  width: 100px;
+  font-size: 80;
+}
 
