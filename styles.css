@@ -113,3 +113,72 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 
+/* Home page */
+
+.homePage{
+  color:white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+  ;
+}
+
+#playButton{
+  background-color: black;
+  color:white;
+  border-radius: 30px;
+  width: 250px;
+  height: 75px;
+  font-size: 40px;
+  border-color: white;
+  cursor: pointer;
+}
+
+/* Screen for the questions while game is running */
+
+.question-container{
+  background-color: white;
+  border-radius: 20px;
+  height:200px;
+  width:500px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+.user{
+  text-align: center;
+  font-size: 30px;
+}
+
+.current-player-container{
+  width:200px;
+  text-align: center;
+  margin-left:150px;
+}
+.current-player-container h2 {
+  padding-top: 10px;
+  margin: 5px 0;
+}
+
+.current-player-container img {
+  margin: 5px 0;
+}
+
+.button-container{
+  text-align: center;
+  
+}
+
+.button-container button{
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
