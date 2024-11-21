@@ -55,13 +55,26 @@ li a:hover {
   color:white;
   font-size: 20px;
 }
+
+#wrongScreen{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30;
+}
+
 #nextButton{
   background-color: #7CB333;
   color: white;
   border-radius: 8px;
   border-color: #7CB333;
   height: 70px;
-  width: 100px;
-  font-size: 80;
+  width: 150px;
+  font-size: 35px;
+  
 }
 
