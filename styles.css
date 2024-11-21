@@ -113,3 +113,27 @@ input[type=submit]:hover {
   font-size: 20px;
 }
 
+/* Home page */
+
+.homePage{
+  color:white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+  ;
+}
+
+#playButton{
+  background-color: black;
+  color:white;
+  border-radius: 30px;
+  width: 250px;
+  height: 75px;
+  font-size: 40px;
+  border-color: white;
+}
