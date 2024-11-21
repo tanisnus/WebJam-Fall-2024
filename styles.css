@@ -56,7 +56,7 @@ li a:hover {
   font-size: 20px;
 }
 
-#wrongScreen{
+.wrongScreen{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -75,6 +75,7 @@ li a:hover {
   height: 70px;
   width: 150px;
   font-size: 35px;
+  margin:auto;
   
 }
 
