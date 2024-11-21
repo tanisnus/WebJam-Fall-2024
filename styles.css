@@ -64,10 +64,9 @@ li a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 30;
+  font-size: 30px;
 }
-
-.rightScreen{
+.correctScreen{
   margin: 0;
   position: absolute;
   top: 50%;
@@ -75,7 +74,7 @@ li a:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 30;
+  font-size: 30px;
 }
 
 #nextButton{
