@@ -35,7 +35,7 @@ li a:hover {
   background-color: #5496C1;
 }
 
-/* this code below applies to howtoplay.html */
+/* this code section applies to howtoplay.html */
 .page-title{
   text-align: center;
   margin-top: 50px;
@@ -56,3 +56,23 @@ li a:hover {
   font-size: 20px;
 }
 
+
+.get-started-container{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.get-started-button{
+  background-color:#7CB333;
+  color:white;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.get-started-button:hover {
+  background-color: orange;
+
+}
+
+
+/* this code section applies to howtoplay.html */
