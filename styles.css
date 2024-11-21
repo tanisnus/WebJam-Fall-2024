@@ -34,3 +34,28 @@ li a {
 li a:hover {
   background-color: #5496C1;
 }
+
+
+
+
+/* this code below applies to howtoplay.html */
+.page-title{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.instruction-container{
+  text-align: center;
+}
+
+.instruction-list{
+  display: inline-block;
+  text-align: left;
+}
+
+.instruction-list li{
+  color:white;
+  font-size: 20px;
+}
+
