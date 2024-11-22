@@ -163,6 +163,8 @@ input[type=submit]:hover {
   color: white;
   border-radius: 8px;
   border-color: #7CB333;
+  border: none;
+  padding: 10px;
   height: 70px;
   width: 150px;
   font-size: 35px;
@@ -250,7 +252,7 @@ input[type=submit]:hover {
   padding:10px 20px; /* Adds space inside the buttons */
   cursor: pointer; /* Changes cursor to a pointer on hover */
   font-size: 15px;
-  background-color: #7CB333 ;
+  background-color: #7CB333;
 }
 
 .back-button:hover, .next-button:hover{
@@ -335,7 +337,15 @@ input[type=submit]:hover {
   margin-top: 25px;
 }
 
-
+.true-button, .false-button {
+  background-color: #90D5FF;
+  border-radius: 30px;
+  border: none;
+  margin: 25px;
+  font-weight: bold;
+  font-size: large;
+  padding: 20px;
+}
 
 .true-button:hover, .false-button:hover{
   background-color: orange;
