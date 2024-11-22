@@ -35,7 +35,7 @@ li a:hover {
   background-color: #5496C1;
 }
 
-/* this code section applies to howtoplay.html */
+/* below code section applies to howtoplay.html */
 .page-title{
   text-align: center;
   margin-top: 50px;
@@ -73,6 +73,68 @@ li a:hover {
   background-color: orange;
 
 }
+/* above code section applies to howtoplay.html */
 
 
-/* this code section applies to howtoplay.html */
+
+
+/* below code section applies to choosedare.html */
+.choose-dare-page-title{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+/* Center the parent container */
+.box-container {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  gap: 20px; /* Space between rows */
+}
+
+/* Style the rows */
+.row {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally in each row */
+  gap: 20px; /* Space between the boxes in each row */
+}
+
+/* Style individual boxes */
+.box {
+  background-color: #ccc; 
+  width: 150px; 
+  height: 100px; 
+  display: flex; 
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  font-size: 20px;
+  border-radius: 8px; /* Add rounded corners */
+  text-align: center;
+}
+
+.box:hover {
+  background-color: #f6f0f0; /* Darken the background on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.button-container{
+  margin-top: 150px;
+  gap: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+
+.back-button, .next-button{
+  padding:10px 20px; /* Adds space inside the buttons */
+  cursor: pointer; /* Changes cursor to a pointer on hover */
+  font-size: 15px;
+  background-color: #7CB333 ;
+}
+
+.back-button:hover, .next-button:hover{
+  background-color: orange;
+}
