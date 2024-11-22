@@ -221,6 +221,7 @@ input[type=submit]:hover {
 
 .back-button:hover, .next-button:hover{
   background-color: orange;
+  cursor: pointer;
 }
 /* Home page */
 
@@ -288,6 +289,24 @@ input[type=submit]:hover {
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button-container{
+  margin-top: 70px;
+  justify-content: center;
+  display: flex;
+}
+
+.submit-button{
+  font-size: 20px;
+  color: white;
+  background-color: #7CB333;
+  padding: 10px 20px;
+}
+
+.submit-button:hover{
+  background-color: orange;
   cursor: pointer;
 }
 
