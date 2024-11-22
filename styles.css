@@ -279,12 +279,12 @@ input[type=submit]:hover {
   margin: 5px 0;
 }
 
-.button-container{
+.tf-button-container{
   text-align: center;
   
 }
 
-.button-container button{
+.tf-button-container button{
   font-size: 16px;
   font-weight: bold;
   border-radius: 5px;
