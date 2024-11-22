@@ -1,5 +1,6 @@
 body {
-    background-color: #5496C1;
+  background-image: url("balloon.png");
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -218,7 +219,7 @@ input[type=submit]:hover {
 
 /* Style individual boxes */
 .box {
-  background-color: #ccc; 
+  background-color: #90D5FF;
   width: 150px; 
   height: 100px; 
   display: flex; 
@@ -230,12 +231,12 @@ input[type=submit]:hover {
 }
 
 .box:hover {
-  background-color: #f6f0f0; /* Darken the background on hover */
+  background-color: orange; /* Darken the background on hover */
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
 .box:active {
-  border: 3px solid black
+  border: 3px solid #90D5FF
 }
 
 
@@ -291,6 +292,7 @@ input[type=submit]:hover {
 
 .question-container{
   background-color: white;
+  color: black;
   border-radius: 20px;
   height:200px;
   width:500px;
