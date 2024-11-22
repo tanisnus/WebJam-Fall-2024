@@ -56,6 +56,8 @@ li a:hover {
   font-size: 20px;
 }
 
+/* wrong & correct screens */
+
 .wrongScreen{
   margin: 0;
   position: absolute;
