@@ -35,6 +35,63 @@ li a:hover {
   background-color: #5496C1;
 }
 
+h1,h3 {
+  text-align: center;
+}
+
+.new-user,.new-user-name,.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin: 30px;
+}
+
+label {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+}
+
+.player-dare-card {
+  background-color: #90D5FF;
+  margin: 30px;
+  padding: 30px;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  width: 250px;
+  background-color: #90D5FF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+}
 /* this code below applies to howtoplay.html */
 .page-title{
   text-align: center;
@@ -86,5 +143,151 @@ li a:hover {
   width: 150px;
   font-size: 35px;
   margin: 80px;
+
+.get-started-container{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.get-started-button{
+  background-color:#7CB333;
+  color: white;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.get-started-button:hover {
+  background-color: orange;
+
+}
+/* above code section applies to howtoplay.html */
+
+/* below code section applies to choosedare.html */
+.choose-dare-page-title{
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+/* Center the parent container */
+.box-container {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  gap: 20px; /* Space between rows */
+}
+
+/* Style the rows */
+.row {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally in each row */
+  gap: 20px; /* Space between the boxes in each row */
+}
+
+/* Style individual boxes */
+.box {
+  background-color: #ccc; 
+  width: 150px; 
+  height: 100px; 
+  display: flex; 
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  font-size: 20px;
+  border-radius: 8px; /* Add rounded corners */
+  text-align: center;
+}
+
+.box:hover {
+  background-color: #f6f0f0; /* Darken the background on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+
+.button-container{
+  margin-top: 150px;
+  gap: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+
+.back-button, .next-button{
+  padding:10px 20px; /* Adds space inside the buttons */
+  cursor: pointer; /* Changes cursor to a pointer on hover */
+  font-size: 15px;
+  background-color: #7CB333 ;
+}
+
+.back-button:hover, .next-button:hover{
+  background-color: orange;
+}
+/* Home page */
+
+.homePage{
+  color:white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 40px;
+  ;
+}
+
+#playButton{
+  background-color: black;
+  color:white;
+  border-radius: 30px;
+  width: 250px;
+  height: 75px;
+  font-size: 40px;
+  border-color: white;
+  cursor: pointer;
+}
+
+/* Screen for the questions while game is running */
+
+.question-container{
+  background-color: white;
+  border-radius: 20px;
+  height:200px;
+  width:500px;
+  margin:auto;
+  padding:10px;
+  text-align: center;
+}
+
+.user{
+  text-align: center;
+  font-size: 30px;
+}
+
+.current-player-container{
+  width:200px;
+  text-align: center;
+  margin-left:150px;
+}
+.current-player-container h2 {
+  padding-top: 10px;
+  margin: 5px 0;
+}
+
+.current-player-container img {
+  margin: 5px 0;
+}
+
+.button-container{
+  text-align: center;
+  
+}
+
+.button-container button{
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
