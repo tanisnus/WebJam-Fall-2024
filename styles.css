@@ -33,6 +33,7 @@ li a {
 
 li a:hover {
   background-color: #5496C1;
+  
 }
 
 h1,h3 {
@@ -43,6 +44,17 @@ h1,h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#submit-names {
+  margin: 20px;
+  background-color: #90D5FF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 40px;
 }
 
 img {
@@ -154,6 +166,8 @@ input[type=submit]:hover {
   color: white;
   font-size: 20px;
   padding: 20px 20px;
+  border-radius: 30px;
+  border: none;
 }
 
 .get-started-button:hover {
@@ -203,10 +217,12 @@ input[type=submit]:hover {
   cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+.box:active {
+  border: 3px solid black
+}
 
-.button-container{
-  margin-top: 150px;
-  gap: 100px;
+
+#button-container{
   justify-content: center;
   display: flex;
 }
@@ -248,6 +264,11 @@ input[type=submit]:hover {
   cursor: pointer;
 }
 
+#playButton:hover {
+  background-color: 90D5FF;
+  cursor: pointer;
+}
+
 /* Screen for the questions while game is running */
 
 .question-container{
@@ -263,6 +284,7 @@ input[type=submit]:hover {
 .user{
   text-align: center;
   font-size: 30px;
+  padding: 20px;
 }
 
 .current-player-container{
@@ -289,5 +311,7 @@ input[type=submit]:hover {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+  border: none;
+  margin-top: 25px;
 }
 
